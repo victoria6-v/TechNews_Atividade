@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews Today</title>
+    <link rel="stylesheet" href="technew.css">
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <h1>TechNews</h1>
+    <p>As <strong>ultimas novidades</strong> do mundo <em>tech</em></p>
+</header>
+
+<main class="conteudo">
+
+    <article class="artigo-destaque">
+        <h2>IA Revoluciona Desenvolvimento</h2>
+
+        <time datetime="2025-08-07">
+            7 de Agosto, 2025
+        </time>
+
+        <p>
+            Inteligencia artificial esta transformando
+            como criamos software...
+        </p>
+
+        <details>
+            <summary>Leia mais</summary>
+            <p>
+                ChatGPT e outras ferramentas estao mudando
+                o cenario tech mundial.
+            </p>
+        </details>
+    </article>
+
+    <section class="secao-video">
+        <h3>Tech em Video</h3>
+
+        <iframe
+            class="video-embed"
+            src="https://www.youtube.com/embed/eqUFcr1mI3Y"
+            title="Tech News Video">
+        </iframe>
+    </section>
+
+    <section class="newsletter">
+        <h3> Newsletter</h3>
+
+        <form action="subscribe.php" method="post">
+
+            <label for="email">Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required>
+
+            <select name="assunto">
+                <option>Inteligencia Artificial</option>
+                <option>Desenvolvimento Web</option>
+                <option>Novidades Tech</option>
+            </select>
+
+            <button type="submit">Inscrever-se</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    © 2025 TechNews Today • Todos os direitos reservados
+    <address>
+        Contato:
+        <a href="mailto:info@technews.com">
+            info@technews.com
+        </a>
+    </address>
+</footer>
+
+</body>
+</html>
